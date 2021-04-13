@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -5521,7 +5521,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e3b4102663ac6e489ba19e3290adb4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Event: {fileID: 11400000, guid: c4b334e33d38da64fba43b9b5636e566, type: 2}
+  Event: {fileID: 11400000, guid: 1b9673b3354ebf743a2eeff4ad48a768, type: 2}
   Response:
     m_PersistentCalls:
       m_Calls:
@@ -5551,7 +5551,7 @@ MonoBehaviour:
   event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11400000, guid: c4b334e33d38da64fba43b9b5636e566, type: 2}
+      - m_Target: {fileID: 11400000, guid: 1b9673b3354ebf743a2eeff4ad48a768, type: 2}
         m_MethodName: Raise
         m_Mode: 1
         m_Arguments:
@@ -6003,7 +6003,6 @@ GameObject:
   m_Component:
   - component: {fileID: 777506077}
   - component: {fileID: 777506079}
-  - component: {fileID: 777506078}
   m_Layer: 0
   m_Name: GameObject (2)
   m_TagString: Untagged
@@ -6025,19 +6024,6 @@ Transform:
   m_Father: {fileID: 1357740157}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &777506078
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 777506076}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 25b56614a8d935b428ef4f9cb8bf36a5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  move: 2
 --- !u!135 &777506079
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -10903,7 +10889,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e3b4102663ac6e489ba19e3290adb4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Event: {fileID: 11400000, guid: c4b334e33d38da64fba43b9b5636e566, type: 2}
+  Event: {fileID: 11400000, guid: 94a2e51d2b10d2842b80d3092b5552cb, type: 2}
   Response:
     m_PersistentCalls:
       m_Calls:
@@ -10933,7 +10919,7 @@ MonoBehaviour:
   event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11400000, guid: c4b334e33d38da64fba43b9b5636e566, type: 2}
+      - m_Target: {fileID: 11400000, guid: 94a2e51d2b10d2842b80d3092b5552cb, type: 2}
         m_MethodName: Raise
         m_Mode: 1
         m_Arguments:
@@ -11051,7 +11037,6 @@ GameObject:
   m_Component:
   - component: {fileID: 852769332}
   - component: {fileID: 852769334}
-  - component: {fileID: 852769333}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -11073,19 +11058,6 @@ Transform:
   m_Father: {fileID: 1357740157}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &852769333
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 852769331}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 25b56614a8d935b428ef4f9cb8bf36a5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  move: 0
 --- !u!135 &852769334
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -11330,7 +11302,7 @@ AudioSource:
     type: 2}
   m_audioClip: {fileID: 8300000, guid: 6096fc1222b8fae4cbc11a3832752bdc, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -16733,7 +16705,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1969784249}
   - component: {fileID: 1969784251}
-  - component: {fileID: 1969784250}
   m_Layer: 0
   m_Name: GameObject (4)
   m_TagString: Untagged
@@ -16755,19 +16726,6 @@ Transform:
   m_Father: {fileID: 1357740157}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1969784250
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1969784248}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 25b56614a8d935b428ef4f9cb8bf36a5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  move: 0
 --- !u!135 &1969784251
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -21691,7 +21649,6 @@ GameObject:
   - component: {fileID: 2124869152}
   - component: {fileID: 2124869151}
   - component: {fileID: 2124869150}
-  - component: {fileID: 2124869154}
   m_Layer: 0
   m_Name: GameObject (1)
   m_TagString: Untagged
@@ -26500,19 +26457,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &2124869154
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2124869147}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 25b56614a8d935b428ef4f9cb8bf36a5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  move: 0
 --- !u!1001 &3724068094021645915
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26533,7 +26477,7 @@ PrefabInstance:
     - target: {fileID: 7077483191736156957, guid: 4d983548805e49a43b9de154bc19d4d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.01
+      value: 0.041
       objectReference: {fileID: 0}
     - target: {fileID: 7077483191736156957, guid: 4d983548805e49a43b9de154bc19d4d4,
         type: 3}
@@ -26577,6 +26521,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7598581761476073893, guid: 4d983548805e49a43b9de154bc19d4d4,
         type: 3}
+      propertyPath: jump
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7598581761476073893, guid: 4d983548805e49a43b9de154bc19d4d4,
+        type: 3}
       propertyPath: trigger
       value: 3
       objectReference: {fileID: 0}
@@ -26584,6 +26533,21 @@ PrefabInstance:
         type: 3}
       propertyPath: character
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7598581761476073894, guid: 4d983548805e49a43b9de154bc19d4d4,
+        type: 3}
+      propertyPath: m_Height
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7598581761476073894, guid: 4d983548805e49a43b9de154bc19d4d4,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 7598581761476073894, guid: 4d983548805e49a43b9de154bc19d4d4,
+        type: 3}
+      propertyPath: m_Center.y
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 7598581761476073895, guid: 4d983548805e49a43b9de154bc19d4d4,
         type: 3}

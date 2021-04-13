@@ -2965,8 +2965,7 @@ MonoBehaviour:
   character: {fileID: 0}
   move: {x: 0, y: 0, z: 1}
   speed: 0.005
-  jump: 10
-  trigger: 2
+  jump: 5
 --- !u!143 &7598581761476073894
 CharacterController:
   m_ObjectHideFlags: 0
@@ -2978,13 +2977,13 @@ CharacterController:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Height: 0.98
-  m_Radius: 0.26
+  m_Height: 1
+  m_Radius: 0.25
   m_SlopeLimit: 5
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
   m_MinMoveDistance: 1e-13
-  m_Center: {x: 0, y: 0.49, z: 0}
+  m_Center: {x: 0, y: 0.5, z: 0}
 --- !u!1 &7610807843049040503
 GameObject:
   m_ObjectHideFlags: 0
